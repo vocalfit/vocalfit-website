@@ -1,11 +1,14 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import "./index.css";
 
-function Navbar() {
+function App() {
   return (
-    <nav style={{ padding: "10px", background: "#333", color: "white" }}>
-      <h2>Vocalfit Studio</h2>
-    </nav>
+    <>
+      <Navbar />
+      <h1>Welcome to Vocalfit Studio!</h1>
+    </>
   );
 }
 
-export default Navbar;
+export default App;
