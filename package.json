@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false react-scripts build"
+    "build": "CI=false npm run build"
   },
   "dependencies": {
     "react": "^18.0.0",
