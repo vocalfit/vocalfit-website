@@ -1,14 +1,11 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import "./index.css";
 
-function App() {
+function Navbar() {
   return (
-    <>
-      <Navbar />
-      <h1>Welcome to Vocalfit Studio!</h1>
-    </>
+    <nav>
+      <h2>Vocalfit Studio</h2>
+    </nav>
   );
 }
 
-export default App;
+export default Navbar;
